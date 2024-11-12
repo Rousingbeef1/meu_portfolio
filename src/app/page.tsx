@@ -1,9 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
 import NavBar from "./components/NavBar";
 import Tecnologias from "./components/Tecnologias";
 import Habilidades from "./components/Habilidades";
 import Projetos from "./components/Projetos";
+import SobreMim from "./components/Sobre_mim";
+import Depoimentos from "./components/Depoimentos";
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
       <Tecnologias></Tecnologias>
       <Habilidades></Habilidades>
       <Projetos></Projetos>
+      <SobreMim></SobreMim>
+      <Depoimentos></Depoimentos>
     </>
   );
 }
