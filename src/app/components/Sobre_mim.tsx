@@ -6,7 +6,7 @@ export default function SobreMim() {
     const [selecionado, setSelecionado] = useState<"historia" | "experiencia" | "suporte" | "projetos">("historia");
 
     return (
-        <div className="flex flex-col w-screen max-w-[1920px] mx-auto items-center justify-center">
+        <div id="sobremim" className="flex flex-col w-screen max-w-[1920px] mx-auto items-center justify-center my-96">
             <label className="text-[3.4375rem] font-montSerrant_bold my-16">Sobre mim</label>
             <div className="desktop:w-[90%] flex desktop:flex-row gap-4 mobile:flex-col items-center">
                 <div className="flex flex-col desktop:w-[50%] mobile:w-[90%]">

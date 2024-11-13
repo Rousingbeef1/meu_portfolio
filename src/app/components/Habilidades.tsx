@@ -11,8 +11,8 @@ export default function Habilidades() {
     return (
         <>
 
-            <h2 className="text-4xl mx-auto text-center mb-16">HABILIDADES</h2>
-            <section className="mx-auto flex flex-col justify-center items-center md:flex-row md:items-center gap-16 h-auto bg-green-500 mb-80">
+            <h2 id="habilidades" className="text-4xl mx-auto text-center mb-16">HABILIDADES</h2>
+            <section className="mx-auto flex flex-col justify-center items-center md:flex-row md:items-center gap-16 h-auto mb-80">
 
                 <div className=" relative flex flex-col justify-center bg-[#161616] rounded-xl aspect-3/5 w-72 p-6 ">
                     <h2 className=" text-4xl font-montSerrant_bold text-[#df78ed]" >Website <br />Dev</h2>
