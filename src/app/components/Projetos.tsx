@@ -18,7 +18,7 @@ export default function Projetos() {
 
                     <Card_produto
                         imagem={imge} nome={"Portfólio Designer"}
-                        descricao={"Desenvolvimento de uma solução web responsiva para o designer Newton Campos, com foco em um layout minimalista e funcionalidade intuitiva."}
+                        descricao={"Portfólio para"}
                         tecnologias={[]}>
                     </Card_produto>
 
