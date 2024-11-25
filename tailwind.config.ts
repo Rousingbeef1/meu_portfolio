@@ -8,9 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        "desktop": { min: "768px" },
+        "mobile": { max: "767px" }
+      },
       fontFamily: {
-        montSerrant_regular:['Montserrant-Regular', 'sans-serif'],
-        montSerrant_semibold:['Montserrant_SemiBold', 'sans-serif'],
+        montSerrant_regular: ['Montserrant-Regular', 'sans-serif'],
+        montSerrant_semibold: ['Montserrant_SemiBold', 'sans-serif'],
         montSerrant_bold: ['Montserrant_Bold', 'sans-serif']
       },
       aspectRatio: {
@@ -24,9 +28,20 @@ const config: Config = {
       colors: {
         redblack: '#123456',
         rosa: '#DF78ED',
+        cinza_claro: "#D9D9D9",
+        cinza_escuro: "#161616",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        popup: "popup 0.2s ease-in"
+      },
+      keyframes: {
+        popup: {
+					'0%': { "scale": "0", "opacity": "0" },
+					'100%': { "scale": "1", "opacity": "1" }
+				},
+      }
     },
   },
   plugins: [],

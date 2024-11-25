@@ -28,7 +28,7 @@ export default function Tecnologias() {
     ]
 
     return (
-        <section className={`flex flex-col gap-11 h-auto mb-96 `}>
+        <section id="conhecimentos" className={`flex flex-col gap-11 h-auto mb-96 `}>
             <div>
                 <h2 className="w-fit mx-auto font-montSerrant_bold text-4xl">Conhecimentos</h2>
             </div>

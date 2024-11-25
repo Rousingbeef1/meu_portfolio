@@ -1,14 +1,15 @@
-import Image from "next/image";
 import Link from "next/link";
 import NavBar from "./components/NavBar";
 import Tecnologias from "./components/Tecnologias";
 import Habilidades from "./components/Habilidades";
 import Projetos from "./components/Projetos";
+import SobreMim from "./components/Sobre_mim";
+import Depoimentos from "./components/Depoimentos";
 
 export default function Home() {
   return (
     <>
-      <div className="flex justify-center items-center h-screen bg-[url('/assets/bg.png')] bg-contain bg-center">
+      <div id="home" className="flex justify-center items-center h-screen bg-[url('/assets/bg.png')] bg-contain bg-center">
         <NavBar></NavBar>
         <div className="flex flex-col justify-center ">
           <h1 className="text-center font-montSerrant_semibold text-[2vw]">Luccas Souza</h1>
@@ -24,6 +25,8 @@ export default function Home() {
       <Tecnologias></Tecnologias>
       <Habilidades></Habilidades>
       <Projetos></Projetos>
+      <SobreMim></SobreMim>
+      <Depoimentos></Depoimentos>
     </>
   );
 }
